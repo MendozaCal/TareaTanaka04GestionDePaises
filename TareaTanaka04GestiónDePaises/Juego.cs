@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace TareaTanaka04GestiónDePaises
 {
-    internal class Program
+    internal class Juego
     {
-        static void Main(string[] args)
+        public void Execute()
         {
-            Juego juego = new Juego();
-            juego.Execute();
-        }        
-    
+
+        }
+        void GastoSalud()
+        {
+
+        }
     }
 }
