@@ -10,11 +10,8 @@ namespace TareaTanaka04GestiónDePaises
     {
         public void Execute()
         {
-
+            
         }
-        void GastoSalud()
-        {
-
-        }
+        
     }
 }
