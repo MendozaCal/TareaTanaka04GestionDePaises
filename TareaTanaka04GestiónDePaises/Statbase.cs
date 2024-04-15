@@ -10,9 +10,9 @@ namespace TareaTanaka04GestiónDePaisesñ
     {
         public StatBase()
         {
-            protected string name { get;: set };
+            public string name { get;: set };
         }
-        public virtual int GetPopulation() 
+        public virtual int GetPeople() 
         {
             return 0;
         }
@@ -20,7 +20,15 @@ namespace TareaTanaka04GestiónDePaisesñ
         {
             return 0;
         }
-        public virtual float GetHappy()
+        public virtual int GetHappy()
+        {
+            return 0;
+        }
+        public virtual int GetVariationFelecidad()
+        {
+            return 0;
+        }
+        public virtual int GetVariationMoney()
         {
             return 0;
         }
