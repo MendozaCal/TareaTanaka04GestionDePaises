@@ -10,7 +10,7 @@ namespace TareaTanaka04GestiónDePaisesñ
     {
         public StatBase()
         {
-            public string name { get;: set };
+            public string Name { get;: set };
         }
         public virtual int GetPeople() 
         {

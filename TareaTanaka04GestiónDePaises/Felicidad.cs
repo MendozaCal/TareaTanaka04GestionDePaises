@@ -8,19 +8,25 @@ namespace TareaTanaka04GestiónDePaisesñ
 {
     internal class Felicidad : StatBase
     {
-        public StatBase()
-        {
-            protected string name { get;: set };
-            int felicidad {  get; set; }
-            int VariantFelicidad {  get; set; }
-        }
+        public int Felicidad { get; set; }
+        public int VariantFelicidad { get; set; }
+
         public virtual int GetHappy()
         {
-            return felicidad;
+            return Felicidad;
         }
-        public virtual int GetVariationFelecidad()
+
+        public virtual int GetVariationFelicidad()
         {
-            return VariantFelicida;
+            return VariantFelicidad;
+        }
+
+        public void AffectHappiness(int gastoSeguridad)
+        {
+            if (gastoSeguridad < 20)
+            {
+                Felicidad -= 10; 
+            }
         }
     }
 }

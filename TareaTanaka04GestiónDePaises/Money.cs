@@ -8,19 +8,17 @@ namespace TareaTanaka04GestiónDePaisesñ
 {
     internal class Money : StatBase
     {
-        public Money()
+        public int Money { get; set; }
+        public int VariantMoney { get; set; }
+
+        public virtual int GetMoney()
         {
-            protected string name { get;: set };
-            int money { get; set; }
-            int VariantMoney { get; set; }
+            return Money;
         }
-        public virtual float     GetMoney()
-        {
-            return felicidad;
-        }
+
         public virtual int GetVariationMoney()
         {
             return VariantMoney;
         }
-}
+    }
 }
