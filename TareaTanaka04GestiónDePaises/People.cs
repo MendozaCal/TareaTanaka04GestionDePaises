@@ -8,14 +8,23 @@ namespace TareaTanaka04GestiónDePaisesñ
 {
     internal class People : StatBase
     {
-        public People()
-        {
-            public string name { get;: set };
-            int people { get; set; }
-        }
+        public int Population { get; set; }
+
         public virtual int GetPeople()
         {
-            return people;
+            return Population;
+        }
+
+        public void AffectPopulation(int gastoSalud)
+        {
+            if (gastoSalud < 20)
+            {
+                Population -= (int)(Population * 0.1);
+            }
+            else if (gastoSalud > 80)
+            {
+                Population += (int)(Population * 0.1);
+            }
         }
     }
 }
