@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TareaTanaka04GestiónDePaisesñ
+namespace TareaTanaka04GestiónDePaises
 {
     internal class People : StatBase
     {
