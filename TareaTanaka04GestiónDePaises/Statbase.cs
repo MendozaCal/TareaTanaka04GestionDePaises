@@ -12,7 +12,7 @@ namespace TareaTanaka04GestiónDePaisesñ
         {
             protected string name { get;: set };
         }
-        public virtual float GetPopulation() 
+        public virtual int GetPopulation() 
         {
             return 0;
         }
